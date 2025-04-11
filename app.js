@@ -25,15 +25,28 @@
 //else {
 //    alert("Usuário ou senha incorretos.")
 //}
-"bela"||"gabi"||"arthur morgan"
-"1234"||"4321"||"1989"
 
-let user = prompt("Insira seu usuário: ")
-let senha = prompt("Insira sua senha: ")
 
-if (
-    ( user === "bela" && senha == "1234")||
-    ( user === "gabi" && senha == "4321")||
-    ( user === "arthur morgan" && senha == "1989")|| {
-    ) 
-} 
+//"bela"||"gabi"||"arthur morgan"
+//"1234"||"4321"||"1989"
+
+//let user = prompt("Insira seu usuário: ")
+//let senha = prompt("Insira sua senha: ")
+
+//if (
+//    ( user === "bela" && senha == "1234")||
+//    ( user === "gabi" && senha == "4321")||
+//    ( user === "arthur morgan" && senha == "1989")|| {
+//    ) 
+//} 
+
+switch(nome){
+    case "isabela":
+        console.log("é voce")
+        break
+    case "fulano":
+        console.log("Você é fulano")
+        break
+    default:
+        console.log("Não te conheço")
+}
