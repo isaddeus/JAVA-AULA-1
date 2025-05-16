@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BELAO</title>
+</head>
+<!-- 
+<body>
+
+    <button id="btnClicar"> Clique aqui </button>
+    <p id="paragrafo"> texto 1 </p>
+
+</body> -->
+
+
+<body>
+    <form id="form" style="display: flex; flex-direction: column;">
+        <label for="nome">Nome: </label>
+        <input type="text" id="nome">
+
+        <label for="email">E-mail: </label>
+        <input type="text" id="email">
+        <label for="assunto"> Assunto: </label>
+        <select id="assunto">
+
+            <option value="option1"> Reclamação </option>
+            <option value="option2"> Sugestão </option>
+            <option value="option3"> Crítica </option>
+
+        </select>
+
+        <label for="mensagem"> Mensagem: </label>
+        <textarea id="mensagem"></textarea>
+        <button id="btnEnviar"> Enviar </button>
+
+        <p id="mensagemErro"></p>
+
+        <div id="cadastroUsuarios">
+            <h2> Usuários </h2>
+            
+        </div>
+    </form>
+</body>
+<script src="app3.js"></script>
+
+</html>
